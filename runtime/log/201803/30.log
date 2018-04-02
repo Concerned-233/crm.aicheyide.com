@@ -1,0 +1,2569 @@
+---------------------------------------------------------------
+[ 2018-03-30T17:19:58+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/wipecache?_=1522401520759
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/wipecache?_=1522401520759 [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,176.90kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'wipecache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?ref=addtabs',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1522401520759',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->wipecache[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:20:20+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1 [运行时间：0.581033s][吞吐率：1.72req/s] [内存消耗：3,116.45kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'third',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->config[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Addon.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\addon\config.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'addon',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.086005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:20:20+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1522401620
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1522401620 [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：2,181.61kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1522401620',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:20:49+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/addon/downloaded?callback=jQuery224019097559715680856_1522401528991&sort=id&order=desc&filter=%7B%22faversion%22%3A%221.0.0.20180314_beta%22%7D&op=%7B%22faversion%22%3A%22%3D%22%7D&_=1522401528994
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon/downloaded?callback=jQuery224019097559715680856_1522401528991&sort=id&order=desc&filter=%7B%22faversion%22%3A%221.0.0.20180314_beta%22%7D&op=%7B%22faversion%22%3A%22%3D%22%7D&_=1522401528994 [运行时间：0.545031s][吞吐率：1.83req/s] [内存消耗：2,816.05kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'downloaded',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery224019097559715680856_1522401528991',
+  'sort' => 'id',
+  'order' => 'desc',
+  'filter' => '{"faversion":"1.0.0.20180314_beta"}',
+  'op' => '{"faversion":"="}',
+  '_' => '1522401528994',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->downloaded[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Addon.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146009s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.083005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:20:52+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/addons/third
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/addons/third [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,174.68kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'third',
+  'controller' => NULL,
+  'action' => NULL,
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.026002s ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\addons\third\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:20:59+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/third/connect/qq.html
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/third/connect/qq.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：2,086.64kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'third',
+    'controller' => 'index',
+    'action' => 'connect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/addons/third',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'qq',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:21:04+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/third/connect/wechat.html
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/third/connect/wechat.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,085.32kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'third',
+    'controller' => 'index',
+    'action' => 'connect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/addons/third',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:21:07+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/third/connect/weibo.html
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/third/connect/weibo.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,085.13kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'third',
+    'controller' => 'index',
+    'action' => 'connect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/addons/third',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'weibo',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:21:21+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1 [运行时间：0.506028s][吞吐率：1.98req/s] [内存消耗：2,912.34kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'third',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->config[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Addon.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\addon\config.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'addon',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.080004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.081005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:21:21+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1522401680
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1522401680 [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,181.81kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon/config?name=third&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1522401680',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:36:29+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/addons/third
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/addons/third [运行时间：0.066003s][吞吐率：15.15req/s] [内存消耗：2,062.09kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'third',
+  'controller' => NULL,
+  'action' => NULL,
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002000s ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\addons\third\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:36:32+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/addons/third
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/addons/third [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：2,062.09kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/addon?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'third',
+  'controller' => NULL,
+  'action' => NULL,
+)
+[ info ] [ RUN ] think\addons\Route->execute[ E:\phpStudy\WWW\crm.aicheyide.com\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001000s ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\addons\third\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:36:36+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1 [运行时间：0.797046s][吞吐率：1.25req/s] [内存消耗：3,086.70kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\category\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.084004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:36:36+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402595
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402595 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,176.93kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1522402595',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:36:37+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category/index?sort=weigh&order=desc&_=1522402596856
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/index?sort=weigh&order=desc&_=1522402596856 [运行时间：0.649037s][吞吐率：1.54req/s] [内存消耗：2,965.84kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1522402596856',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.078004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.078004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.077004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.078004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:36:42+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category/add?dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/add?dialog=1 [运行时间：0.705040s][吞吐率：1.42req/s] [内存消耗：3,182.21kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\category\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.081004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.080004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:36:42+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402602
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402602 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,176.93kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1522402602',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:38:43+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/
+[ info ] 127.0.0.1/crm.aicheyide.com/public/ [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,140.70kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:03+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/auth/group?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/group?addtabs=1 [运行时间：1.329076s][吞吐率：0.75req/s] [内存消耗：3,086.27kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/group?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\auth\Group.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\auth\group\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.078004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.138008s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group` [ RunTime:0.120007s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `status` = 'normal' [ RunTime:0.449025s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.078005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.078005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:03+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=auth.group&v=1522402742
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=auth.group&v=1522402742 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,177.16kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/group?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.group',
+  'v' => '1522402742',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:04+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/auth/group/index?sort=id&order=desc&_=1522402743694
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/group/index?sort=id&order=desc&_=1522402743694 [运行时间：0.789045s][吞吐率：1.27req/s] [内存消耗：2,968.71kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/group?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1522402743694',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\auth\Group.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.074004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.075005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.076005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `status` = 'normal' [ RunTime:0.075004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.076004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.075004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:06+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/auth/adminlog?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/adminlog?addtabs=1 [运行时间：1.028059s][吞吐率：0.97req/s] [内存消耗：3,047.38kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/adminlog?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\auth\Adminlog.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\auth\adminlog\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_admin` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT `id` FROM `crm_admin` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `status` = 'normal' [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `crm_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.084004s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'auth/adminlog' LIMIT 1 [ RunTime:0.083004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:06+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=auth.adminlog&v=1522402745
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=auth.adminlog&v=1522402745 [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,176.31kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/adminlog?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.adminlog',
+  'v' => '1522402745',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:07+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1522402746479
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1522402746479 [运行时间：1.192068s][吞吐率：0.84req/s] [内存消耗：2,871.68kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/auth/adminlog?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1522402746479',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\auth\Adminlog.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.081004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_admin` [ RunTime:0.093005s ]
+[ sql ] [ SQL ] SELECT `id` FROM `crm_admin` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_auth_group` WHERE  `status` = 'normal' [ RunTime:0.080004s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `crm_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_admin_log` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `crm_admin_log` WHERE  `admin_id` IN (1,2,4,3,5) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_admin_log` WHERE  `admin_id` IN (1,2,4,3,5) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.080005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:22+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/user/rule?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule?addtabs=1 [运行时间：0.807046s][吞吐率：1.24req/s] [内存消耗：3,067.72kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/rule.php
+[ info ] [ RUN ] app\admin\controller\user\Rule->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\user\Rule.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\user\rule\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.081004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_user_rule` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_user_rule` ORDER BY `weigh`  desc [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'user/rule' LIMIT 1 [ RunTime:0.081005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:22+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.rule&v=1522402761
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.rule&v=1522402761 [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,176.98kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.rule',
+  'v' => '1522402761',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:23+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/user/rule/index?sort=weigh&order=desc&_=1522402762647
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule/index?sort=weigh&order=desc&_=1522402762647 [运行时间：0.667038s][吞吐率：1.50req/s] [内存消耗：2,944.82kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1522402762647',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/rule.php
+[ info ] [ RUN ] app\admin\controller\user\Rule->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\user\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_user_rule` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_user_rule` ORDER BY `weigh`  desc [ RunTime:0.082005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:36+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/user/rule/edit/ids/7?dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule/edit/ids/7?dialog=1 [运行时间：0.848048s][吞吐率：1.18req/s] [内存消耗：3,158.64kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/rule.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\user\rule\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'ruledata',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_user_rule` [ RunTime:0.090006s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_user_rule` ORDER BY `weigh`  desc [ RunTime:0.086004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_user_rule` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.086004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:37+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.rule&v=1522402776
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.rule&v=1522402776 [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：2,177.12kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/rule/edit/ids/7?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.rule',
+  'v' => '1522402776',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:54+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/user/group?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/group?addtabs=1 [运行时间：0.663038s][吞吐率：1.51req/s] [内存消耗：3,010.09kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.group',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/group?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/group.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\user\group\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'user/group' LIMIT 1 [ RunTime:0.087005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:39:54+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.group&v=1522402794
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=user.group&v=1522402794 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,176.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/group?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.group',
+  'v' => '1522402794',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/group.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:39:56+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/user/group/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1522402794889
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/group/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1522402794889 [运行时间：0.811046s][吞吐率：1.23req/s] [内存消耗：2,925.13kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/user/group?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1522402794889',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/user/group.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_user_group` [ RunTime:0.094006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `crm_user_group` ORDER BY `id`  desc LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_user_group` ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:42:31+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category/edit/ids/10?dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/edit/ids/10?dialog=1 [运行时间：0.835048s][吞吐率：1.20req/s] [内存消耗：3,187.07kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '10',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\category\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+  8 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:42:31+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402950
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402950 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,177.13kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/edit/ids/10?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1522402950',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:42:32+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category/edit/ids/11?dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/edit/ids/11?dialog=1 [运行时间：0.828047s][吞吐率：1.21req/s] [内存消耗：3,054.80kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '11',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\category\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+  8 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.085005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:42:33+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402952
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402952 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,177.13kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/edit/ids/11?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1522402952',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:42:46+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/category/add?dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/add?dialog=1 [运行时间：0.668039s][吞吐率：1.50req/s] [内存消耗：3,052.25kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\category\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.080004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.080004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_category` [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_category` ORDER BY weigh desc,id desc [ RunTime:0.081004s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:42:46+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402965
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1522402965 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,176.99kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1522402965',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:42:50+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1 [运行时间：0.674039s][吞吐率：1.48req/s] [内存消耗：3,011.05kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'element_id' => 'fachoose-image',
+  'multiple' => 'false',
+  'mimetype' => 'image/*',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\general\attachment\select.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'general/attachment/select' LIMIT 1 [ RunTime:0.085005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:42:50+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402969
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402969 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,178.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.attachment',
+  'v' => '1522402969',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:42:51+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402970664
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402970664 [运行时间：0.748043s][吞吐率：1.34req/s] [内存消耗：2,842.78kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"mimetype":"image/%"}',
+  'op' => '{"mimetype":"LIKE %...%"}',
+  '_' => '1522402970664',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_attachment` [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.080004s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.082005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:02+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1 [运行时间：0.588033s][吞吐率：1.70req/s] [内存消耗：2,829.16kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'element_id' => 'fachoose-image',
+  'multiple' => 'false',
+  'mimetype' => 'image/*',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\general\attachment\select.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'general/attachment/select' LIMIT 1 [ RunTime:0.081005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:03+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402982
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402982 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,178.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.attachment',
+  'v' => '1522402982',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:43:04+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402983050
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402983050 [运行时间：0.816047s][吞吐率：1.23req/s] [内存消耗：2,842.78kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"mimetype":"image/%"}',
+  'op' => '{"mimetype":"LIKE %...%"}',
+  '_' => '1522402983050',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140008s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.090006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_attachment` [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:10+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1 [运行时间：0.642037s][吞吐率：1.56req/s] [内存消耗：2,829.16kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/category?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'element_id' => 'fachoose-image',
+  'multiple' => 'false',
+  'mimetype' => 'image/*',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\general\attachment\select.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.152009s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'general/attachment/select' LIMIT 1 [ RunTime:0.089005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:10+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402989
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=general.attachment&v=1522402989 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,178.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.attachment',
+  'v' => '1522402989',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-30T17:43:11+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402990342
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%2F%25%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1522402990342 [运行时间：1.052060s][吞吐率：0.95req/s] [内存消耗：2,842.78kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/general/attachment/select?element_id=fachoose-image&multiple=false&mimetype=image/*&dialog=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"mimetype":"image/%"}',
+  'op' => '{"mimetype":"LIKE %...%"}',
+  '_' => '1522402990342',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\general\Attachment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.396023s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.086004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_attachment` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `crm_attachment` WHERE  (  `mimetype` LIKE '%image/%%' ) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:31+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/dashboard?addtabs=1
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.584033s][吞吐率：1.71req/s] [内存消耗：3,115.46kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117007s ] mysql:host=120.78.135.109;dbname=crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_group_access` [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `crm_auth_group_access` `aga` LEFT JOIN `crm_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.074004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `crm_auth_rule` [ RunTime:0.077005s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `crm_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.077004s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `crm_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.080005s ]
+---------------------------------------------------------------
+[ 2018-03-30T17:43:32+08:00 ] 127.0.0.1 GET /crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1522403011
+[ info ] 127.0.0.1/crm.aicheyide.com/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1522403011 [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：2,178.85kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16228931a2b281-05db2321872b0d-3e3d5f01-1fa400-16228931a2c6; CNZZDATA1264021086=1420746138-1521097895-http%253A%252F%252F127.0.0.1%252F%7C1521097895; PHPSESSID=uuk7nu6jqvrpmq9gnjv0isjed6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1522122002,1522402724; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1522402724',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/crm.aicheyide.com/public/index.php/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1522403011',
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\WWW\crm.aicheyide.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\WWW\crm.aicheyide.com\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
