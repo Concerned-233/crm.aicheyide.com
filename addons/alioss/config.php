@@ -69,7 +69,7 @@ return array (
     'content' => 
     array (
     ),
-    'value' => ' http://yourbucket.oss-cn-shenzhen.aliyuncs.com',
+    'value' => 'aicheyide-oss.oss-cn-shenzhen.aliyuncs.com',
     'rule' => 'required',
     'msg' => '',
     'tip' => '如果你启用了CDN，请填写CDN地址',
